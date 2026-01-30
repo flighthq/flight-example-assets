@@ -1,121 +1,127 @@
 {
   "version": "v1",
   "assets": {
-    "fonts/FreebooterUpdated.woff": {
-      "description": "Fallback webfont (woff format, older browsers)",
-      "type": "font/woff"
+    "fonts": {
+      "FreebooterUpdated.woff": {
+        "description": "Fallback webfont (woff format, older browsers)",
+        "type": "font/woff"
+      },
+      "FreebooterUpdated.ttf": {
+        "description": "TrueType font for compatibility (used in some legacy browsers)",
+        "type": "font/ttf"
+      },
+      "FreebooterUpdated.eot": {
+        "description": "Embedded OpenType font for Internet Explorer",
+        "type": "font/eot"
+      },
+      "FreebooterUpdated.svg": {
+        "description": "SVG font",
+        "type": "image/svg+xml"
+      }
     },
-    "fonts/FreebooterUpdated.ttf": {
-      "description": "TrueType font for compatibility (used in some legacy browsers)",
-      "type": "font/ttf"
+    "images": {
+      "piratepig_background_tile.png": {
+        "description": "Repeating background texture for Pirate Pig",
+        "type": "image/png"
+      },
+      "piratepig_center_bottom.png": {
+        "description": "Bottom character graphic for Pirate Pig",
+        "type": "image/png"
+      },
+      "piratepig_cursor_highlight.png": {
+        "description": "Gamepad cursor (highlighted) for Pirate Pig",
+        "type": "image/png"
+      },
+      "piratepig_cursor.png": {
+        "description": "Gamepad cursor for Pirate Pig",
+        "type": "image/png"
+      },
+      "piratepig_favicon.png": {
+        "description": "Favicon for Pirate Pig",
+        "type": "image/png"
+      },
+      "piratepig_game_bear.png": {
+        "description": "Bear tile for Pirate Pig",
+        "type": "image/png"
+      },
+      "piratepig_game_bunny_02.png": {
+        "description": "Bunny tile for Pirate Pig",
+        "type": "image/png"
+      },
+      "piratepig_game_carrot.png": {
+        "description": "Carrot tile for Pirate Pig",
+        "type": "image/png"
+      },
+      "piratepig_game_lemon.png": {
+        "description": "Lemon tile for Pirate Pig",
+        "type": "image/png"
+      },
+      "piratepig_game_panda.png": {
+        "description": "Panda tile for Pirate Pig",
+        "type": "image/png"
+      },
+      "piratepig_game_piratePig.png": {
+        "description": "Pig tile for Pirate Pig",
+        "type": "image/png"
+      },
+      "piratepig_logo.png": {
+        "description": "Logo for Pirate Pig",
+        "type": "image/png"
+      },
+      "wabbit_alpha.png": {
+        "description": "BunnyMark wabbit",
+        "type": "image/png"
+      }
     },
-    "fonts/FreebooterUpdated.eot": {
-      "description": "Embedded OpenType font for Internet Explorer",
-      "type": "font/eot"
-    },
-    "fonts/FreebooterUpdated.svg": {
-      "description": "SVG font",
-      "type": "image/svg+xml"
-    },
-    "images/piratepig_background_tile.png": {
-      "description": "Repeating background texture for Pirate Pig",
-      "type": "image/png"
-    },
-    "images/piratepig_center_bottom.png": {
-      "description": "Bottom character graphic for Pirate Pig",
-      "type": "image/png"
-    },
-    "images/piratepig_cursor_highlight.png": {
-      "description": "Gamepad cursor (highlighted) for Pirate Pig",
-      "type": "image/png"
-    },
-    "images/piratepig_cursor.png": {
-      "description": "Gamepad cursor for Pirate Pig",
-      "type": "image/png"
-    },
-    "images/piratepig_favicon.png": {
-      "description": "Favicon for Pirate Pig",
-      "type": "image/png"
-    },
-    "images/piratepig_game_bear.png": {
-      "description": "Bear tile for Pirate Pig",
-      "type": "image/png"
-    },
-    "images/piratepig_game_bunny_02.png": {
-      "description": "Bunny tile for Pirate Pig",
-      "type": "image/png"
-    },
-    "images/piratepig_game_carrot.png": {
-      "description": "Carrot tile for Pirate Pig",
-      "type": "image/png"
-    },
-    "images/piratepig_game_lemon.png": {
-      "description": "Lemon tile for Pirate Pig",
-      "type": "image/png"
-    },
-    "images/piratepig_game_panda.png": {
-      "description": "Panda tile for Pirate Pig",
-      "type": "image/png"
-    },
-    "images/piratepig_game_piratePig.png": {
-      "description": "Pig tile for Pirate Pig",
-      "type": "image/png"
-    },
-    "images/piratepig_logo.png": {
-      "description": "Logo for Pirate Pig",
-      "type": "image/png"
-    },
-    "images/wabbit_alpha.png": {
-      "description": "BunnyMark wabbit",
-      "type": "image/png"
-    },
-    "sounds/piratepig_3.mp3": {
-      "description": "Match 3 MP3 for Pirate Pig",
-      "type": "audio/mpeg"
-    },
-    "sounds/piratepig_3.ogg": {
-      "description": "Match 3 OGG for Pirate Pig",
-      "type": "audio/mpeg"
-    },
-    "sounds/piratepig_3.wav": {
-      "description": "Match 3 WAV for Pirate Pig",
-      "type": "audio/mpeg"
-    },
-    "sounds/piratepig_4.mp3": {
-      "description": "Match 4 MP3 for Pirate Pig",
-      "type": "audio/mpeg"
-    },
-    "sounds/piratepig_4.ogg": {
-      "description": "Match 4 OGG for Pirate Pig",
-      "type": "audio/mpeg"
-    },
-    "sounds/piratepig_4.wav": {
-      "description": "Match 4 WAV for Pirate Pig",
-      "type": "audio/mpeg"
-    },
-    "sounds/piratepig_5.mp3": {
-      "description": "Match 5 MP3 for Pirate Pig",
-      "type": "audio/mpeg"
-    },
-    "sounds/piratepig_5.ogg": {
-      "description": "Match 5 OGG for Pirate Pig",
-      "type": "audio/mpeg"
-    },
-    "sounds/piratepig_5.wav": {
-      "description": "Match 5 WAV for Pirate Pig",
-      "type": "audio/mpeg"
-    },
-    "sounds/piratepig_theme.mp3": {
-      "description": "Theme MP3 for Pirate Pig",
-      "type": "audio/mpeg"
-    },
-    "sounds/piratepig_theme.ogg": {
-      "description": "Theme OGG for Pirate Pig",
-      "type": "audio/mpeg"
-    },
-    "sounds/piratepig_theme.wav": {
-      "description": "Theme WAV for Pirate Pig",
-      "type": "audio/mpeg"
+    "sounds": {
+      "piratepig_3.mp3": {
+        "description": "Match 3 MP3 for Pirate Pig",
+        "type": "audio/mpeg"
+      },
+      "piratepig_3.ogg": {
+        "description": "Match 3 OGG for Pirate Pig",
+        "type": "audio/mpeg"
+      },
+      "piratepig_3.wav": {
+        "description": "Match 3 WAV for Pirate Pig",
+        "type": "audio/mpeg"
+      },
+      "piratepig_4.mp3": {
+        "description": "Match 4 MP3 for Pirate Pig",
+        "type": "audio/mpeg"
+      },
+      "piratepig_4.ogg": {
+        "description": "Match 4 OGG for Pirate Pig",
+        "type": "audio/mpeg"
+      },
+      "piratepig_4.wav": {
+        "description": "Match 4 WAV for Pirate Pig",
+        "type": "audio/mpeg"
+      },
+      "piratepig_5.mp3": {
+        "description": "Match 5 MP3 for Pirate Pig",
+        "type": "audio/mpeg"
+      },
+      "piratepig_5.ogg": {
+        "description": "Match 5 OGG for Pirate Pig",
+        "type": "audio/mpeg"
+      },
+      "piratepig_5.wav": {
+        "description": "Match 5 WAV for Pirate Pig",
+        "type": "audio/mpeg"
+      },
+      "piratepig_theme.mp3": {
+        "description": "Theme MP3 for Pirate Pig",
+        "type": "audio/mpeg"
+      },
+      "piratepig_theme.ogg": {
+        "description": "Theme OGG for Pirate Pig",
+        "type": "audio/mpeg"
+      },
+      "piratepig_theme.wav": {
+        "description": "Theme WAV for Pirate Pig",
+        "type": "audio/mpeg"
+      }
     }
   }
 }
