@@ -1,0 +1,28 @@
+# dependencies
+node_modules/
+
+# downloaded assets
+public/
+
+# build output
+dist/
+out/
+
+# env files
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# editor
+.vscode/
+.idea/
+*.suo
+*.user
+
+# logs
+*.log
+npm-debug.log*
